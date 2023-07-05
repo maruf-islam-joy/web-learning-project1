@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(236, 255, 169, 0.868);
+    background-color: rgba(221, 230, 99, 0.932);
 }
 
 .menus, .list{
@@ -20,4 +20,34 @@
     font-weight: 700;
     font-size: large;
     font-family:Arial, Helvetica, sans-serif;
+}
+.container_front{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 25px; */
+    background-image: url("images/bgr.png"), linear-gradient(45deg,rgb(35, 35, 250),rgb(210, 210, 56));
+    color: rgb(255, 252, 218);
+    height: 100vh;
+    
+}
+.intro_text{
+    /* font-size: x-large; */
+    width: 500px;
+}
+#banner-title{
+    font-size: 55px;
+}
+.banner_lg{
+    padding: 50px;
+    border: none;
+
+}
+.btn{
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: beige;
+    font-weight:540;
 }
