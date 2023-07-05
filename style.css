@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.heading_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(236, 255, 169, 0.868);
+}
+
+.menus, .list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
