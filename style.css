@@ -108,3 +108,24 @@ a{
 .about_img{
     margin-top: 50px;
 }
+.promotion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-image: url("images/bgr.png"),linear-gradient(65deg,  rgb(35, 35, 250), rgb(210, 210, 56));
+    height: 100vh;
+    color: rgb(255, 252, 218);
+}
+.download{
+    width: 480px;
+    text-align: center;
+}
+#promoimg{
+    margin-top: 25px;
+}
+.title_promo{
+    font-size: 55px;
+    margin-top: 50px;
+    text-align: left;
+}
