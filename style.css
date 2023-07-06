@@ -163,3 +163,10 @@ input[type="submit"]{
     background-color: rgb(210, 210, 56);
     cursor:pointer;
 }
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(210, 210, 56);
+    text-align: center;
+}
