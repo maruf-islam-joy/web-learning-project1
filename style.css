@@ -127,5 +127,39 @@ a{
 .title_promo{
     font-size: 55px;
     margin-top: 50px;
-    text-align: left;
+    text-align: center;
+}
+.contact_us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("images/bgr.png"),linear-gradient(52deg, rgb(210, 210, 56), rgb(35, 35, 250));
+    color: rgb(255, 252, 218);
+    height: 100vh;
+}
+.contact_form{
+    width: 500px;
+    
+}
+input, textarea{
+    width: 400px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: beige;
+    font-weight:540;
+    box-shadow: 0px 0px 50px 10px rgb(210, 210, 56);
+    font-size: 15px;
+}
+.c_title{
+    font-size: 55px;
+}
+input[type="submit"]{
+    width: 100px;
+    
+}
+.submit:hover{
+    background-color: rgb(210, 210, 56);
+    cursor:pointer;
 }
